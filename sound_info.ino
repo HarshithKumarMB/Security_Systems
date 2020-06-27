@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <WiFiClientSecure.h>
 
-const char* ssid = "Harshith";
-const char* password = "Bheema4006";
+const char* ssid = "ssid_name";
+const char* password = "password";
 
 const char* host = "maker.ifttt.com";
 const int httpsPort = 443;
@@ -45,7 +45,7 @@ void loop() {
     return;
   }
 
-  String url = "/trigger/esp/with/key/hxJ7O-vJCkfIWeEhzNfI1A-uufDh2jOiCU07npPqlxT";
+  String url = "/trigger/esp/with/key/hxJ7O-vJCkfIWeEhzNfI1A-uufDhXXXXXXXXXXX";
   Serial.print("requesting URL: ");
   Serial.println(url);
 
